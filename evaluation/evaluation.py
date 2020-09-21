@@ -2,7 +2,7 @@ import os
 import numpy as np
 import argparse
 
-DATASET_PATH = 'data/NIA-2020_PATHOLOGY'
+DATASET_PATH = 'data/Breast_Pathology'
 
 def evaluation_metrics (label, pred):
     metrics = _get_metrics (label, pred)
